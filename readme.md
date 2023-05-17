@@ -1,6 +1,6 @@
 PROBLEMA: Creare un programma che calcola il prezzo del biglietto del treno secondo vari parametri
 
-1 - Dichiarare le variabili e le costanti
+1 - Dichiarare le variabili e le constanti
 
     1.1 - Variabili
 
@@ -13,7 +13,7 @@ PROBLEMA: Creare un programma che calcola il prezzo del biglietto del treno seco
         1.1.4 - prezzo_biglietto_totale_scontato
 
 
-    1.2 - Costanti
+    1.2 - Constanti
 
         1.2.1 - prezzo_biglietto_unitario                                               (0.21€)
 
