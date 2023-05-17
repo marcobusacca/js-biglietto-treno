@@ -132,7 +132,7 @@ if (età_utente < 18){
     // OUTPUT ALERT PREZZO BIGLIETTO TOTALE NON SCONTATO
     alert(`Il tuo biglietto del treno costerà : ${prezzo_biglietto_totale}€!
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km.
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km.
     
     Fai buon viaggio!
     `);
@@ -140,7 +140,7 @@ if (età_utente < 18){
     // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
     document.getElementById("prezzo_biglietto").innerHTML = (`Il tuo biglietto del treno costerà : ${prezzo_biglietto_totale}€! <br> <br>
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km. <br>
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km. <br>
     
     Fai buon viaggio!
     `);
