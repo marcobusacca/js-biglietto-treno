@@ -15,8 +15,12 @@ const sconto_over_65 = 40;
 console.log(sconto_over_65);
 
 // ALERT BENVENUTO
-alert('Benvenuto! Questo programma ti aiuterà a calcolare il prezzo del tuo biglietto per il treno!');
+alert("Benvenuto! Questo programma ti aiuterà a calcolare il prezzo del tuo biglietto per il treno!");
 
 // INPUT NUMERO CHILOMETRI UTENTE
-numero_chilometri_utente = parseInt(prompt('Inserisci i chilometri che vuoi percorrere'));
+numero_chilometri_utente = parseInt(prompt("Inserisci i chilometri che vuoi percorrere :"));
 console.log(numero_chilometri_utente);
+
+// INPUT ETA UTENTE
+età_utente = parseInt(prompt("Inserisci la tua età :"));
+console.log(età_utente);
