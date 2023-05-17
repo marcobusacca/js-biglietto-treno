@@ -4,9 +4,9 @@ PROBLEMA: Creare un programma che calcola il prezzo del biglietto del treno seco
 
     1.1 - Variabili
 
-        1.1.1 - numero_chilometri_utente    (da chiedere all'utente)
+        1.1.1 - numero_chilometri_utente                                                (INPUT = da chiedere all'utente)
 
-        1.1.2 - età_utente                  (da chiedere all'utente)
+        1.1.2 - età_utente                                                              (INPUT = da chiedere all'utente)
 
         1.1.3 - prezzo_biglietto_totale
 
@@ -15,11 +15,11 @@ PROBLEMA: Creare un programma che calcola il prezzo del biglietto del treno seco
 
     1.2 - Costanti
 
-        1.2.1 - prezzo_biglietto_unitario   (0.21€)
+        1.2.1 - prezzo_biglietto_unitario                                               (0.21€)
 
-        1.2.2 - sconto_minorenni            (20%)
+        1.2.2 - sconto_minorenni                                                        (20%)
 
-        1.2.3 - sconto_over_65              (40%)
+        1.2.3 - sconto_over_65                                                          (40%)
 
 
 
