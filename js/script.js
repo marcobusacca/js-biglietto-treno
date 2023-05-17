@@ -54,29 +54,33 @@ if (età_utente < 18){
     console.log(`prezzo_biglietto_totale_scontato : ${prezzo_biglietto_totale_scontato}€`);
 
     // OUTPUT ALERT PREZZO BIGLIETTO TOTALE SCONTATO
-    alert(`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€,
+    alert(`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€.
 
     Però, visto che hai ${età_utente} anni,
 
     hai diritto ad uno sconto minorenni del ${sconto_minorenni}%!
 
-    Quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€!
+    Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km.
+    quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€!
+
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km.
 
     Fai buon viaggio!
     `);
 
     // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
-    document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€, <br>
+    document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€. <br> <br>
 
-    Però, visto che hai ${età_utente} anni, <br>
+    Però, visto che hai ${età_utente} anni,
 
-    hai diritto ad uno sconto minorenni del ${sconto_minorenni}%! <br>
+    hai diritto ad uno sconto minorenni del ${sconto_minorenni}%! <br> <br>
 
-    Quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€! <br>
+    Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km. <br>
+    quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€! <br> <br>
+
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km. <br>
 
     Fai buon viaggio!
     `);
@@ -92,29 +96,33 @@ if (età_utente < 18){
     console.log(`prezzo_biglietto_totale_scontato : ${prezzo_biglietto_totale_scontato}€`);
 
     // OUTPUT ALERT PREZZO BIGLIETTO TOTALE SCONTATO
-    alert(`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€,
+    alert(`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€.
 
     Però, visto che hai ${età_utente} anni,
 
-    hai diritto ad uno sconto over 65 del ${sconto_over_65}%!
+    hai diritto ad uno sconto minorenni del ${sconto_over_65}%!
 
-    Quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€!
+    Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km.
+    quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€!
+
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km.
 
     Fai buon viaggio!
     `);
 
     // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
-    document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€, <br>
+    document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€. <br> <br>
 
-    Però, visto che hai ${età_utente} anni, <br>
+    Però, visto che hai ${età_utente} anni,
 
-    hai diritto ad uno sconto over 65 del ${sconto_over_65}%! <br>
+    hai diritto ad uno sconto minorenni del ${sconto_over_65}%! <br> <br>
 
-    Quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€! <br>
+    Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
-    Il tuo viaggio durerà : ${numero_chilometri_utente}km. <br>
+    quindi, il tuo biglietto del treno costerà : ${prezzo_biglietto_totale_scontato}€! <br> <br>
+
+    Il tuo viaggio durerà : ${numero_chilometri_utente} km. <br>
 
     Fai buon viaggio!
     `);
@@ -130,7 +138,7 @@ if (età_utente < 18){
     `);
 
     // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
-    document.getElementById("prezzo_biglietto").innerHTML = (`Il tuo biglietto del treno costerà : ${prezzo_biglietto_totale}€! <br>
+    document.getElementById("prezzo_biglietto").innerHTML = (`Il tuo biglietto del treno costerà : ${prezzo_biglietto_totale}€! <br> <br>
 
     Il tuo viaggio durerà : ${numero_chilometri_utente}km. <br>
     
