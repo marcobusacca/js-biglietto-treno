@@ -100,7 +100,7 @@ if (età_utente < 18){
 
     Però, visto che hai ${età_utente} anni,
 
-    hai diritto ad uno sconto minorenni del ${sconto_over_65}%!
+    hai diritto ad uno sconto over 65 del ${sconto_over_65}%!
 
     Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
@@ -116,7 +116,7 @@ if (età_utente < 18){
 
     Però, visto che hai ${età_utente} anni,
 
-    hai diritto ad uno sconto minorenni del ${sconto_over_65}%! <br> <br>
+    hai diritto ad uno sconto over 65 del ${sconto_over_65}%! <br> <br>
 
     Il tuo sconto effettivo sarà di : ${sconto_biglietto}€,
 
