@@ -69,7 +69,7 @@ if (età_utente < 18){
     Fai buon viaggio!
     `);
 
-    // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
+    // OUTPUT HTML PREZZO BIGLIETTO TOTALE SCONTATO
     document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€. <br> <br>
 
     Però, visto che hai ${età_utente} anni,
@@ -111,7 +111,7 @@ if (età_utente < 18){
     Fai buon viaggio!
     `);
 
-    // OUTPUT HTML PREZZO BIGLIETTO TOTALE NON SCONTATO
+    // OUTPUT HTML PREZZO BIGLIETTO TOTALE SCONTATO
     document.getElementById("prezzo_biglietto").innerHTML = (`Il biglietto del treno costerebbe : ${prezzo_biglietto_totale}€. <br> <br>
 
     Però, visto che hai ${età_utente} anni,
