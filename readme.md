@@ -25,11 +25,7 @@ PROBLEMA: Creare un programma che calcola il prezzo del biglietto del treno seco
 
 2 - Chiedere all'utente il numero di chilometri che vuole percorrere
 
-    2.1 - Controllare se l'utente ha inserito effettivamente un numero
-
 3 - Chiedere all'utente la sua età
-
-    3.1 - Controllare se l'utente ha inserito effettivamente un numero
 
 4 - Calcolare il prezzo totale del biglietto                                            (prezzo_biglietto_unitario * numero_chilometri_utente)
 
