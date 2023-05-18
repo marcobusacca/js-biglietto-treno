@@ -23,7 +23,10 @@ numero_chilometri_utente = parseInt(prompt("Inserisci i chilometri che vuoi perc
 console.log(`numero_chilometri_utente : ${numero_chilometri_utente}km`);
 
 // CONTROLLO CHILOMETRI UTENTE
-if (isNaN(numero_chilometri_utente)){
+if (numero_chilometri_utente === 0){
+    alert("Devi inserire un numero maggiore di 0!");
+    throw new Error("Devi inserire un numero maggiore di 0!");
+} else if (isNaN(numero_chilometri_utente)){
     alert("Devi inserire i chilometri che vuoi percorrere!");
     throw new Error("Devi inserire i chilometri che vuoi percorrere!");
 }
@@ -33,7 +36,10 @@ età_utente = parseInt(prompt("Inserisci la tua età :"));
 console.log(`età_utente : ${età_utente} anni`);
 
 // CONTROLLO ETA UTENTE
-if (isNaN(età_utente)){
+if (età_utente === 0){
+    alert("Devi inserire un numero maggiore di 0!");
+    throw new Error("Devi inserire un numero maggiore di 0!");
+} else if (isNaN(età_utente)){
     alert("Devi inserire la tua età!");
     throw new Error("Devi inserire la tua età!");
 }
